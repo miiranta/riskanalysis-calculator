@@ -11,6 +11,7 @@ using namespace std;
 const double EulerConstant = std::exp(1.0);
 
 void printArray(double array[MAXSIZE], int size, int how = 0);
+double expectedRisk(double values[MAXSIZE], double chances[MAXSIZE], int size);
 double expectedReturn(double values[MAXSIZE], double chances[MAXSIZE], int size);
 double discreteReturn(double priceNow, double priceBefore);
 double discreteReturn(double prices[MAXSIZE], double response[MAXSIZE], int size);
